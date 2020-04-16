@@ -6,7 +6,7 @@ export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS"
 // export const UPDATE_DOGS = "UPDATE_DOGS"
 export const FETCH_DATA_FAILURE = "FETCH_DATA_FAILURE"
 
-export const fetchData = () => dispatch => {
+export const getData = () => dispatch => {
     dispatch({ type: FETCH_DATA })
     axios.get("https://dog.ceo/api/breeds/image/random")
         .then(res => {

@@ -37,9 +37,9 @@ const DogList = props =>{
 const mapStateToProps = state =>{
     console.log(state);
     return{
-        isFetching: state.isFetching,
-        message: state.message,
-        error: state.error
+        isFetching: state.reducer.isFetching,
+        message: state.reducer.message,
+        error: state.reducer.error
     }
 }
 

@@ -13,21 +13,21 @@ const DogList = props =>{
 
     return(
         <div>
-            <h1>Dog Images</h1>
+            <h1>Dog Image Generator</h1>
             {props.isFetching && 
             (<Loader type="Puff" color="#00BFFF" height={100} width={100} />)}
 
             <button onClick ={props.getData}>Fetch Dog Pictures</button>
 
-            {!props.message && !props.isFetching&& (
+          
                 <h3>Get your dog pictures!</h3>
-            )}
-
-                {props.message && !props.isFetching && (
+            
                 <div className ="dog-card">
                     <img src ={props.message.message} alt ="random dog breed"/>
                 </div>
-                )}    
+
+                {/* {props.message && !props.isFetching && (
+                )}     */}
         </div>
     )
 }

@@ -49,7 +49,7 @@ const DogList = props =>{
             (<Loader type="Puff" color="#00BFFF" height={100} width={100} />)}
             {props.message && !props.isFetching &&(
                 <div className ="dog-card">
-                    <img className ="dogImage" src ={props.message.message} alt ="dog image"/>
+                    <img className ="dog-image" src ={props.message.message} alt ="dogs"/>
                 </div>
             )}
         </div>

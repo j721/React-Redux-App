@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 //import action
-import {getData} from "../store/actions/action";
+import {getData} from "../actions/action";
 
 import { connect } from 'react-redux';
 import Loader from 'react-loader-spinner';

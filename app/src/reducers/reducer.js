@@ -1,4 +1,4 @@
-import {FETCH_DATA, FETCH_DATA_SUCCESS, FETCH_DATA_FAILURE} from '../actions';
+import {FETCH_DATA, FETCH_DATA_SUCCESS, FETCH_DATA_FAILURE} from '../actions/action';
 
 
 const  initialState ={

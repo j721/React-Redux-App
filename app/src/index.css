@@ -4,10 +4,15 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; 
 
-    background: #ddd6f3;  
+    background: #642B73;  
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);  
+    background: linear-gradient(to right, #C6426E, #642B73); 
+
+
+    /* background: #ddd6f3;  
     background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  
-    background: linear-gradient(to right, #faaca8, #ddd6f3); 
-    color: #9c6e9c;
+    background: linear-gradient(to right, #faaca8, #ddd6f3);  */
+    color: white;
     opacity: 0.9;
 }
 
